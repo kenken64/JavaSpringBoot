@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.aws.codestar.projecttemplates.controller.HelloWorldControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.16 s <<< FAILURE! - in com.aws.codestar.projecttemplates.controller.HelloWorldControllerTest
+testPostRequest  Time elapsed: 0.129 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Hello AWS CodeStar!!> but was: <Hello AWS CodeStar!>
+	at com.aws.codestar.projecttemplates.controller.HelloWorldControllerTest.testPostRequest(HelloWorldControllerTest.java:68)
+
+testGetRequest  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Hello AWS CodeStar!!> but was: <Hello AWS CodeStar!>
+	at com.aws.codestar.projecttemplates.controller.HelloWorldControllerTest.testGetRequest(HelloWorldControllerTest.java:54)
+
